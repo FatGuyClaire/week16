@@ -1,0 +1,32 @@
+// Here, I manipulated the default style parameters for React-Bootstrap to make the page look the way I wanted it to. 
+
+$primary: darkorange;
+$dark: #000;
+$table-hover-color: darkorange;
+$table-hover-bg: darkorange;
+$navbar-padding-y: 0;
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: #fff;
+$utilities: (
+  "width": (
+    property: width,
+    class: w,
+    responsive: true,
+    values: (
+      25: 25%,
+      50: 50%,
+      75: 75%,
+      100: 100%,
+      auto: 'auto'
+    )
+  )
+);
+.table-hover > tbody > tr:hover {--bs-table-hover-bg: darkorange;}
+.nav-link:hover, .nav-link:focus {font-weight: 600;}
+.navbar-nav .nav-link.active {font-weight: 600; background: #000;}
+h1 {padding-bottom: 3rem;}
+@import "~bootstrap/scss/bootstrap";
+
+
+
+
