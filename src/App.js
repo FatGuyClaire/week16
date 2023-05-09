@@ -71,6 +71,9 @@ function Layout() {
             <NavLink className="nav-link" to="/events">Karaoke Events</NavLink>
             <NavLink className="nav-link" to="/search">Song Search</NavLink>
             <NavLink className="nav-link" to="/contact">Contact</NavLink>
+            
+            {/*This link will be hidden and password protected when the site goes live  */}
+            <NavLink className="nav-link" to="/admin">Admin</NavLink>
           </Nav>
           </Navbar.Collapse>
         </Container>
